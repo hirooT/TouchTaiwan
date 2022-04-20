@@ -1,0 +1,186 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: auto;
+    color: #3c763b;
+}
+html {
+overflow-x: hidden;
+overflow-y: hidden;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f1b3;
+    margin: 2rem auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+.background{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+#bg1{
+    display: block;
+}
+#bg2{
+    display: none;
+}
+#bg3{
+    display: none;
+}
+#bottom1{
+    display: block;
+}
+#bottom2{
+    display: none;
+}
+.backgroundImg{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+.backgroundImgBottom{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
+#canvas_start{
+    display: block;
+}
+#canvas_instruct{
+    display: none;
+}
+#canvas_play{
+    display: none;
+}
+#canvas_result{
+    display: none;
+}
+#logo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+#rain{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+#content_test{
+	position: relative;
+	margin: auto;
+	margin-top: 10%;
+	width: 100%;
+	height: auto;
+	align-content: center;
+	text-align: center;
+}
+#btn_start{
+	position: relative;
+	width: 40%;
+	height: auto;
+	bottom: 20px;
+    margin: auto;
+    margin-top: 10vw;
+    margin-left: 30%;
+}
+#btn_instruct{
+    position: relative;
+    width: 40%;
+    height: auto;
+    bottom: 20px;
+    margin: auto;
+    margin-left: 30%;
+}
+#instructBox{
+    position: inherit; 
+    width: fit-content; 
+    height: fit-content;
+}
+#content_instruct{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top:  42vw;
+    left: 0vw;
+}
+#img_instructX{
+    position: absolute;
+    width: 6%;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin-top: 46vw;
+    margin-left: 16.5vw;
+}
+#content_play{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top:  42vw;
+    left: 0vw;
+}
+#arrow{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 111vw;
+}
+#dot{
+    position: absolute;
+    width: 6%;
+    height: auto;
+    margin-top: 112vw;
+    margin-left: 49vw;
+}
+#content_scoreCard{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top:  42vw;
+    left: 0vw;
+}
+#img_rainScore{
+    position: absolute;
+    width: 31%;
+    height: auto;
+    margin-top:  85vw;
+    left: 34vw;
+}
+#label_score{
+    position: absolute;
+    font-size: 21vw;
+    color: #0e6eb8;
+    font-weight: bold;
+    margin-top: 57vw;
+    margin-left: 40vw; /*45*/
+    text-align: center;
+    justify-content: center;
+}
+#btn_fb{
+    position: absolute;
+    width: 13%;
+    height: auto;
+    margin-top:  139vw;
+    left: 30vw;
+}
+#btn_web{
+    position: absolute;
+    width: 13%;
+    height: auto;
+    margin-top:  139vw;
+    right: 30vw;
+}
