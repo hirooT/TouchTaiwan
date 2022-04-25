@@ -11,8 +11,14 @@
 <body>
 	<div class="c_start">
 		<img id="background" src="assets/textures/p1_bg.png">
-		<img id="btn_info" src="assets/textures/p1_btnInfo.png">	
+		<img id="btn_info" src="assets/textures/p1_btnInfo.png" onclick="onIntro()">	
 		<img id="btn_start" src="assets/textures/p1_btnStart.png" onclick="onStart()">	
+	</div>
+	<div class="c_intro">
+		<img id="background" src="assets/textures/p4_bg.png">
+		<img id="btn_panel" src="assets/textures/panel.png">
+		<img id="btn_detailx" src="assets/textures/btn_X.png" onclick="onIntroExit()">
+		<iframe id="detailUrl" src="assets/detail/intro.html"></iframe>
 	</div>
 	<div class="c_scan">
 		<div id="reader"></div>

@@ -11,7 +11,8 @@ const qrCodeSuccessCallback = (decodedText, decodedResult) => {
     if(!isScanned){
     	isScanned = true;
     	currentCode = decodedText;
-	    let str = currentCode.replace(_url, "");
+	    //let str = currentCode.replace(_url, "");
+	    let str = _url + currentCode;
 	    const element = document.getElementById('detailUrl');
 		element.remove();
 		var iframe = document.createElement('iframe');
@@ -36,7 +37,14 @@ function onStart(){
 
 	html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
 }
-
+function onIntro(){
+	$(".c_start").hide();
+	$(".c_intro").show();
+}
+function onIntroExit(){
+	$(".c_start").show();
+	$(".c_intro").hide();
+}
 function onExit(){
 	$(".c_detail").hide();
 	$(".c_scan").show();

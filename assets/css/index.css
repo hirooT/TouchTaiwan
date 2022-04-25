@@ -14,6 +14,9 @@ iframe{
 .c_start{
 	display: block;
 }
+.c_intro{
+	display: none;
+}
 .c_scan{
 	display: none;
 }
