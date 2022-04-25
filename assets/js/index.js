@@ -1,7 +1,7 @@
 var isScanned = false;
 var html5QrcodeScanner;
 var currentCode = "";
-var _url = "https://hiroot.github.io/itriTouchTaiwan2022/";
+var _url = "https://hiroot.github.io/itriTouchTaiwan2022/assets/detail/";
 const html5QrCode = new Html5Qrcode("reader");
 var scanArray = [];
 
